@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <main className={styles.main}>
       <div className={styles.title}>
-        FAMmunity
+        FAMunity
       </div>
       <div className={styles.horizontalline}></div>
 
