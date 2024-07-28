@@ -47,8 +47,8 @@
 
 .button {
   padding: 15px 30px;
-  background-color: #ffffff;
-  color: #ff7e5f;
+  background-color: #1c8eb1;
+  color: #fff;
   border: none;
   border-radius: 25px;
   font-size: 1em;
@@ -59,7 +59,8 @@
 }
 
 .button:hover {
-  background-color: #f4f4f4;
+  background-color: #fff;
+  color: #1c8eb1
 }
 
 .textContent {
