@@ -9,6 +9,8 @@ const Home = () => {
       <div className={styles.title}>
         FAMmunity
       </div>
+      <div className={styles.horizontalline}></div>
+
       <div className={styles.subtitle}>
         <b>Connecting Families, Empowering Journeys.</b>
         <br></br>
