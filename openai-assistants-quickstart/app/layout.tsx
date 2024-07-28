@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {assistantId ? children : <Warnings />}
-        <img className="logo" src="/fammunity.svg" alt="FAMmunity Logo" />
+        {/* <img className="logo" src="/fammunity.svg" alt="FAMmunity Logo" /> */}
       </body>
     </html>
   );

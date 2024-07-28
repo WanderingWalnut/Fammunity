@@ -6,15 +6,18 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to right, #62cff4, #2c67f2);
+  /* background: linear-gradient(to right, #62cff4, #2c67f2); */
+  background-image: url("/Background.jpg");
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the background image */
   text-align: center; /* Center the text */
 }
 
 .title {
-  font-size: 4em; /* Adjust font size */
+  font-size: 5em; /* Adjust font size */
   font-weight: 700;
   color: white;
-  margin-bottom: 700px; /* Push the title higher up the page */
+  margin-bottom: 800px; /* Push the title higher up the page */
   position: absolute;
 }
 
@@ -26,7 +29,7 @@
 }
 
 .container {
-  margin-top: 300px; /* Ensure space between the button and text content */
+  margin-top: 350px; /* Ensure space between the button and text content */
   position: absolute;
 
 
@@ -51,7 +54,10 @@
 
 .textContent {
   max-width: 800px; /* Limit the width of the text content */
-  color: white;
-  font-size: 1.2em;
+  font-size: 1.3em; /* Adjust size as needed */
+  color: white; /* Or any of the other light colors mentioned */
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);  
   margin: 20px 0; /* Margin to create space above and below */
+  
 }
+
