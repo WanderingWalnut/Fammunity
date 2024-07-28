@@ -61,7 +61,9 @@ const Chat = ({
   functionCallHandler = () => Promise.resolve(""), // default to return empty string
 }: ChatProps) => {
   const [userInput, setUserInput] = useState("");
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState<MessageProps[]>([
+    { role: "assistant", text: "Welcome to Fammunity! I'm your personal assistant here to help you navigate family support resources and provide the information you need on rehabilitation, mental health, and family support. How can I assist you today?" }
+  ]);
   const [inputDisabled, setInputDisabled] = useState(false);
   const [threadId, setThreadId] = useState("");
 
