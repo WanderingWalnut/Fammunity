@@ -1,4 +1,4 @@
-# # Fammunity
+# Fammunity
 
 Fammunity is a comprehensive support platform designed for families navigating the rehabilitation journey. It offers vital resources, communication tools, and emotional support. Our AI chatbot provides empathetic assistance, offering information on rehabilitation, mental health, and family support. It also helps families stay connected and supportive, ensuring their loved ones receive the best care possible.
 
