@@ -62,7 +62,7 @@ const FileViewer = () => {
         }`}
       >
         {files.length === 0 ? (
-          <div className={styles.title}>Attach files to test file search</div>
+          <div className={styles.titleAttach}>Please attach any text, PDF, or DOC file to provide additional context for the AI chatbot.</div>
         ) : (
           files.map((file) => (
             <div key={file.file_id} className={styles.fileEntry}>
